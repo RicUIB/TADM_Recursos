@@ -1,0 +1,79 @@
+---
+title: "Presentación de la Asignatura  Tecnologías para el Análisi de DAtos Masivos"
+author: 'Máster de Análisis de Datos Masivos UIB: Juan Gabriel Gomila  & Ricardo Alberich'
+date: "17/10/2020"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## ¿Quiénes somos?
+
+
+```{r foto_jb,out.width ="25%",fig.cap="Juan Gabriel Gomila"}
+knitr::include_graphics(c("joanby.jpg"))
+```
+
+
+```{r foto_ra,out.width ="25%",fig.cap="Ricardo Alberich"}
+knitr::include_graphics(c("ra_2020_2.jpg"))
+```
+## ¿Quiénes somos? Juan Gabriel Gomila
+
+* [Departamento de Ciencias Matemáticas e Informática e la UIB ](https://www.uib.es/es/lauib/Govern-i-organitzacio/estructura/Departaments/dmi/)
+* [Profesor asociado del área de Ciencia de la Computación e Inteligencia artificial](https://www.uib.eu/personal/ABjE5ODE5MA/)
+* [Licenciado en Matemáticas por la UIB](https://www.uib.es/es/)
+* [CEO Frogames](https://frogames.es/)
+* Y más cosas...
+* [Email](mailto:juan.gabriel.gomila@uib.es)
+
+
+
+
+## ¿Quiénes somos? Ricardo Alberich
+
+* [Departamento de Ciencias Matemáticas e Informática e la UIB ](https://www.uib.es/es/lauib/Govern-i-organitzacio/estructura/Departaments/dmi/)
+* [Profesor Titular del área de Ciencia de la Computación e Inteligencia Artificial](https://www.uib.es/es/personal/ABDI0ODk/)
+* [Licenciado en matemáticas por la Universidad de Valencia](https://www.uv.es/uvweb/universidad/es/universidad-valencia-1285845048380.html)
+* [Doctor en informática por la UIB](https://www.uib.cat/)
+* [Email](mailto:r.alberich@uib.es)
+
+
+## Asignatura 11630 - Tecnologías para el Analisis de Datos Masivos
+
+
+
+* [Guía docente(català)](https://academic.uib.es/doa/consultaPublica/look%5bconpub%5dMostrarPubGuiaDocAs?entradaPublica=true&idiomaPais=ca.ES&_anoAcademico=2020&_codAsignatura=11630)
+* [Cronograma: Horarios de clase](https://academic.uib.es/pds/consultaPublica/look[conpub]InicioPubHora?entradaPublica=true&lock=true&idiomaPais=es.ES&planDocente=2020&centro=9395&estudio=260&planEstudio=590&curso=1&trimestre=S/1&asignatura11630=11630&&grupo0=1&consultarAsignaturaGrupoPrivada=S)
+* [Espacio discord de la asignatura](https://discord.gg/uphEZMR)
+* [Espacio moodle de la UIB de la asignatura](https://ad.uib.es/estudis2021/course/view.php?id=1524)
+
+## Contenidos de la asignatura y 1
+
+Todo será de carácter práctico y aplicado. Ya se profundizará en otras asignaturas según los itinerarios que hayáis elegido.
+
+Grandes temas (no necesariamente en este orden) son tecnologías para:
+
+* Parte 1 - Preprocesamiento de datos
+* Parte 2 - Regresión: Regresión Lineal Simple, Regresión Lineal Múltiple, Regresión Polinomial, SVR, Regresión en Árboles de Decisión y Regresión con Bosques Aleatorios
+* Parte 3 - Clasificación: Regresión Logística, K-NN, SVM, Kernel SVM, Naive Bayes, Clasificación con Árboles de Decisión y Clasificación con Bosques Aleatorios
+* Parte 4 - Clustering: K-Means, Clustering Jerárquico
+* Parte 5 - Aprendizaje por Reglas de Asociación: Apriori, Eclat
+
+## Contenidos de la asignatura y 2
+
+Continuación
+
+
+* Parte 6 - Reinforcement Learning: Límite de Confianza Superior, Muestreo Thompson
+* Parte 7 - Procesamiento Natural del Lenguaje: Modelo de Bag-of-words y algoritmos de NLP
+* Parte 8 - Deep Learning: Redes Neuronales Artificiales y Redes Neuronales Convolucionales
+* Parte 9 - Reducción de la dimensión: ACP, LDA, Kernel ACP
+* Parte 10 - Selección de Modelos & Boosting: k-fold Cross Validation, Ajuste de Parámetros, Grid Search, XGBoost
+
+
