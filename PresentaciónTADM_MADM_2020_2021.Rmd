@@ -1,10 +1,10 @@
 ---
-title: "Presentación de la Asignatura  Tecnologías para el Análisi de DAtos Masivos"
+title: "Presentación de la Asignatura  Tecnologías para el Análisi de Datos Masivos"
 author: 'Máster de Análisis de Datos Masivos UIB: Juan Gabriel Gomila  & Ricardo Alberich'
 date: "17/10/2020"
 output:
-  ioslides_presentation: default
   beamer_presentation: default
+  ioslides_presentation: default
 ---
 
 ```{r setup, include=FALSE}
