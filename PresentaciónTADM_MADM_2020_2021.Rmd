@@ -3,8 +3,16 @@ title: "Presentación de la Asignatura  Tecnologías para el Análisi de Datos M
 author: 'Máster de Análisis de Datos Masivos UIB: Juan Gabriel Gomila  & Ricardo Alberich'
 date: "17/10/2020"
 output:
-  beamer_presentation: default
   ioslides_presentation: default
+  beamer_presentation: default
+  html_document:
+    df_print: paged
+    toc: yes
+toccolor: blue
+linkcolor: red
+header-includes: \renewcommand{\contentsname}{Contenidos}
+citecolor: blue
+urlcolor: blue
 ---
 
 ```{r setup, include=FALSE}
@@ -53,11 +61,29 @@ knitr::include_graphics(c("ra_2020_2.jpg"))
 * [Espacio discord de la asignatura](https://discord.gg/uphEZMR)
 * [Espacio moodle de la UIB de la asignatura](https://ad.uib.es/estudis2021/course/view.php?id=1524)
 
-## Contenidos de la asignatura y 1
+
+
+
+## Temas de la asignatura
 
 Todo será de carácter práctico y aplicado. Ya se profundizará en otras asignaturas según los itinerarios que hayáis elegido.
 
 Grandes temas (no necesariamente en este orden) son tecnologías para:
+
+
+* Tema 1 Repaso de estadística descriptiva, inferencia y Introducción a R y RStudio
+Este será un tema transversal al curso cubierto con los materiales del curso online de Udemy los anexos.
+
+* Tema 2. Manipulación de datos con Tidyverse. Este tema se tratará sólo en R pero se extensible al lenguaje python
+
+* Tema 3. Machine Learning y Aprendizaje Estadístico
+
+* Tema 4 Protección de datos y Legislación.
+
+## Contenidos Tema 3 ( y 1 )
+
+
+
 
 * Parte 1 - Preprocesamiento de datos
 * Parte 2 - Regresión: Regresión Lineal Simple, Regresión Lineal Múltiple, Regresión Polinomial, SVR, Regresión en Árboles de Decisión y Regresión con Bosques Aleatorios
@@ -65,7 +91,7 @@ Grandes temas (no necesariamente en este orden) son tecnologías para:
 * Parte 4 - Clustering: K-Means, Clustering Jerárquico
 * Parte 5 - Aprendizaje por Reglas de Asociación: Apriori, Eclat
 
-## Contenidos de la asignatura y 2
+## Contenidos Tema 3 ( y 2 )
 
 Continuación
 
@@ -75,5 +101,47 @@ Continuación
 * Parte 8 - Deep Learning: Redes Neuronales Artificiales y Redes Neuronales Convolucionales
 * Parte 9 - Reducción de la dimensión: ACP, LDA, Kernel ACP
 * Parte 10 - Selección de Modelos & Boosting: k-fold Cross Validation, Ajuste de Parámetros, Grid Search, XGBoost
+
+## Metodología
+
+Actividades de trabajo presencial (2,16 créditos, 54 horas)
+
+1. Clases teóricas
+    *Descripción: Sesiones expositivas, explicativas y / o demostrativas de contenido. Las presentaciones pueden ser realizadas por el profesor o por los estudiantes supervisado por el profesor.
+    * Horas: 36
+    
+2. Clases prácticas
+
+    * Descripción: Trabajos prácticos en el aula en el que se desarrollan actividad de aplicación de los conocimientos a situaciones concretas y la adquisición y habilidades relacionadas con la asignatura.
+    * Horas: 18
+
+
+## Evaluación 
+
+1. Actividades de trabajo no presencial (6,84 créditos, 171 horas)        
+    a. Presentación de un tema de TECNOLOGíAS
+    * Descripción: Preparación de un tema de formación complementario referente a las TECNOLOGíAS en grupo para entregar al profesor  y con exposición ORAL en clase. Puede haber evaluación en forma de test si los profesores lo consideran adecuado.
+    * Horas: 31
+
+2. Estudio y trabajo autónomo individual o en grupo
+
+Descripción: Preparación de seminarios, lecturas, investigaciones, trabajos, memorias u obtención y análisis de datos para entregar al profesor o exponer en clase.
+Horas: 140
+Criterio de evaluación: -
+ 
+
+## Actividad de evaluación
+
+
+* Clases teóricas peso 30% recuperable si ?¿ ; nota mínima 5
+
+* Clases prácticas peso 20% Recuperable no
+
+* Presentación de un tema de NT 15% Recuperable no
+
+* Estudio y trabajo autónomo individual o en grupo 35%, Recuperable sí; nota mínima 5
+
+* La nota mínima es la nota a partir de la cual se puede aplicar el peso que corresponda sobre la nota final.
+
 
 
