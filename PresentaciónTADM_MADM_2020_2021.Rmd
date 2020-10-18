@@ -1,10 +1,11 @@
 ---
-title: "Presentación de la Asignatura  Tecnologías para el Análisi de Datos Masivos"
+title: "Presentación de la Asignatura  Tecnologías para el Análisis de Datos Masivos"
 author: 'Máster de Análisis de Datos Masivos UIB: Juan Gabriel Gomila  & Ricardo Alberich'
 date: "17/10/2020"
 output:
-  ioslides_presentation: default
   beamer_presentation: default
+  ioslides_presentation: 
+    widescreen: yes
   html_document:
     df_print: paged
     toc: yes
@@ -23,12 +24,12 @@ knitr::opts_chunk$set(echo = FALSE)
 ## ¿Quiénes somos?
 
 
-```{r foto_jb,out.width ="25%",fig.cap="Juan Gabriel Gomila"}
+```{r foto_jb,out.width ="20%",fig.cap="Juan Gabriel Gomila"}
 knitr::include_graphics(c("joanby.jpg"))
 ```
 
 
-```{r foto_ra,out.width ="25%",fig.cap="Ricardo Alberich"}
+```{r foto_ra,out.width ="20%",fig.cap="Ricardo Alberich"}
 knitr::include_graphics(c("ra_2020_2.jpg"))
 ```
 ## ¿Quiénes somos? Juan Gabriel Gomila
@@ -82,9 +83,6 @@ Este será un tema transversal al curso cubierto con los materiales del curso on
 
 ## Contenidos Tema 3 ( y 1 )
 
-
-
-
 * Parte 1 - Preprocesamiento de datos
 * Parte 2 - Regresión: Regresión Lineal Simple, Regresión Lineal Múltiple, Regresión Polinomial, SVR, Regresión en Árboles de Decisión y Regresión con Bosques Aleatorios
 * Parte 3 - Clasificación: Regresión Logística, K-NN, SVM, Kernel SVM, Naive Bayes, Clasificación con Árboles de Decisión y Clasificación con Bosques Aleatorios
@@ -102,46 +100,75 @@ Continuación
 * Parte 9 - Reducción de la dimensión: ACP, LDA, Kernel ACP
 * Parte 10 - Selección de Modelos & Boosting: k-fold Cross Validation, Ajuste de Parámetros, Grid Search, XGBoost
 
+## Materiales del curso (enlaces  gratuitos a materiales)
+
+* [Curso completo de Estadística descriptiva - RStudio y Python](https://www.udemy.com/course/estadistica-descriptiva/?couponCode=UIBDATOS2020)
+* [Curso completo de R para Data Science con Tidyverse](https://www.udemy.com/course/r-for-data-science/?couponCode=UIBDATOS2020)
+* [Machine Learning de la A a la Z: R y Python para data science](https://www.udemy.com/course/machinelearning-es/?couponCode=UIBDATOS2020)
+
+
+# Enlaces  a manuales cursos y libros de Análisis de Datos
+
+## Manuales de R básicos
+
+1. [AprendeR1](https://aprender-uib.github.io/AprendeR1/). Manual de R parte 1. Descriptiva.
+2. [AprendeR2 version 2](https://aprender-uib.github.io/AprendeR2/). VERSION 2 Manual de R parte 2. Inferencial.
+3. [AprendeR2 version 1](https://cescrossello.github.io/AprendeR-II/). VERSION 2 Manual de R parte 2. Inferencial.
+
+## Enlaces  a  repositorios de datos
+
+1. [Kaggle](https://www.kaggle.com/)
+
+2. [Sciencie (Nature)](https://www.nature.com/sdata/policies/repositories)
+
+3. [ Data Repositories](http://oad.simmons.edu/oadwiki/Data_repositories)
+
+4. [UCI (Machine learningrepository)](https://archive.ics.uci.edu/ml/datasets.ph)
+
+
+## Material cursos probabilidad y estadística básicos
+
+1. [Probabilidad y variables aleatorias para ML con R y Python bookdown](https://joanby.github.io/bookdown-probabilidad)
+    + [Presentaciones](https://joanby.github.io/probabilidad)
+    + [Presentaciones repositorio](https://github.com/joanby/probabilidad)
+    + [Ejercicios, en Rmd, pdf ](https://github.com/joanby/probabilidad/tree/master/ejercicios)
+    + [Shiny](https://joanby.shinyapps.io/DistribucionesNotables/)
+
+2. [Curso completo de estadística inferencial con R y Python bookdown. EN CONSTRUCCIÓN](https://joanby.github.io/bookdown-estadistica-inferencial)
+    + [Presentaciones](https://joanby.github.io/estadistica-inferencial)
+    + [Presentaciones repositorio](https://github.com/joanby/estadistica-inferencial)
+    + [Shiny intervalos de confianza y contrastes hipótesis. EN CONSTRUCCIÓN](https://joanby.shinyapps.io/contrastes-hipotesis/)
+
+3.  [Página de itinerarios del profesor Juan Gabriel Gomila](https://frogames.es/rutas-de-aprendizaje/)
+
+
+
+
+## Libros del entorno de R y Rstudio
+
+En general los libros gratuitos de (https://bookdown.org/)
+
+Dos libros, entre otros, básicos que introducen a las librerías 
+[tidyverse del entorno de Rstudio](https://rstudio.com/)  son 
+
+1. [R for Data Science](https://r4ds.had.co.nz/)
+2. [Tidy text](https://www.tidytextmining.com/)
+3. [Hay muchos más libros  en bookdown.org](https://bookdown.org)
+
+
+
 ## Metodología
 
-Actividades de trabajo presencial (2,16 créditos, 54 horas)
-
-1. Clases teóricas
-    *Descripción: Sesiones expositivas, explicativas y / o demostrativas de contenido. Las presentaciones pueden ser realizadas por el profesor o por los estudiantes supervisado por el profesor.
-    * Horas: 36
-    
-2. Clases prácticas
-
-    * Descripción: Trabajos prácticos en el aula en el que se desarrollan actividad de aplicación de los conocimientos a situaciones concretas y la adquisición y habilidades relacionadas con la asignatura.
-    * Horas: 18
-
-
-## Evaluación 
-
-1. Actividades de trabajo no presencial (6,84 créditos, 171 horas)        
-    a. Presentación de un tema de TECNOLOGíAS
-    * Descripción: Preparación de un tema de formación complementario referente a las TECNOLOGíAS en grupo para entregar al profesor  y con exposición ORAL en clase. Puede haber evaluación en forma de test si los profesores lo consideran adecuado.
-    * Horas: 31
-
-2. Estudio y trabajo autónomo individual o en grupo
-
-Descripción: Preparación de seminarios, lecturas, investigaciones, trabajos, memorias u obtención y análisis de datos para entregar al profesor o exponer en clase.
-Horas: 140
-Criterio de evaluación: -
+* Teoría y materiales explicados en vídeos online. (Home work)
+* Las clase en linea en el discord  de la asignatura y  BBcollaborate de moodle de la UIB
+* En las  clases online, repasaremos conceptos de los videos y haremos más ejemplos, profundizaremos y resolveremos consultas y dudas,
+* **Recomendación** las primeras semanas sólo tenéis esta asignatura habrá MUCHO TRABAJO y tendréis que invertir muchas horas (15 horas de clase
+ y unas 45 más de trabajo). El objetivo es conseguir un nivel MÍNIMO para poder cursar el resto de asignaturas del máster con garantías de éxito.
  
 
 ## Actividad de evaluación
 
-
-* Clases teóricas peso 30% recuperable si ?¿ ; nota mínima 5
-
-* Clases prácticas peso 20% Recuperable no
-
-* Presentación de un tema de NT 15% Recuperable no
-
-* Estudio y trabajo autónomo individual o en grupo 35%, Recuperable sí; nota mínima 5
-
-* La nota mínima es la nota a partir de la cual se puede aplicar el peso que corresponda sobre la nota final.
-
-
-
+* Estadística descriptiva: R + python: 20% 
+* Manipulación de Datos: Tidyverse: 20%
+* Trabajo Final (individual): Machine Learning : 50% nota mínima 5/10) recuperable.
+* Cuestionarios, interacción en clase y trabajos cursos online: 10%
