@@ -1,0 +1,86 @@
+---
+title: "Aspectos básicos de  los data frames"
+author: "Ricardo"
+date: "23/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Operaciones con Data frames básico
+
+Veresmoe ejemplso de opraciones en data frames 
+
+## El Iris data set de R. Fisher
+
+Si [buscamos en goolge iris data set](https://www.google.com/search?rlz=1C1CHBF_esES891ES891&ei=zAKTX4fpMdPMgwfO7I3YCw&q=iris+data+set&oq=iris+data+set&gs_lcp=CgZwc3ktYWIQARgAMgIIADICCAAyAggAMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeOgQIABBHUOwUWOwUYJQhaABwAngAgAFZiAFZkgEBMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab) 
+
+
+```{r}
+str(iris)
+str(iris3)
+```
+
+
+```{r}
+class(iris)
+str(iris)
+class(iris$Sepal.Length)
+apply(iris,MARGIN=2,FUN=mean)
+estadisticos=function(x) {c(Media=mean(x,na.rm=TRUE),
+                            Desv_tipica=sd(x,na.rm=TRUE),
+                            Min=min(x,bar.rm=TRUE)
+)
+  }
+apply(iris[,1:4],MARGIN=2,FUN=mean)
+apply(iris[,-5],MARGIN=2,FUN=mean)
+apply(iris[,-5],MARGIN=2,FUN=estadisticos)
+# help(aggregate)
+aggregate(iris$Sepal.Length,by=list(iris$Species),FUN=mean)
+```
+
+
+```{r}
+lapply(iris,class)
+
+dim(iris)
+dim(iris)[1]
+
+rownames(iris)
+rownames(iris)<- paste0("Flor ",rownames(iris))
+rownames(iris)
+head(iris)
+
+colnames(iris)
+names(iris)
+```
+
+
+
+
+```{r}
+table(iris$Species)
+prop.table(table(iris$Species))
+```
+
+
+```{r}
+A=matrix(rnorm(20),byrow=TRUE,ncol=4)
+class(A)
+dim(A)
+dimnames(A)<-list(letters[1:5],letters[1:4])
+dimnames(A)
+```
+
+
+```{r}
+x=1:10
+x%%2==0
+lapply(x, FUN=function(y) y%%2==0)
+lapply(x, FUN=function(y) y%%2==0)
+unlist(lapply(x, FUN=function(y) y%%2==0))
+```
+

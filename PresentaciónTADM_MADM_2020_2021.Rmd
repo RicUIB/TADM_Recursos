@@ -3,9 +3,9 @@ title: "Presentación de la Asignatura  Tecnologías para el Análisis de Datos 
 author: 'Máster de Análisis de Datos Masivos UIB: Juan Gabriel Gomila  & Ricardo Alberich'
 date: "17/10/2020"
 output:
-  beamer_presentation: default
   ioslides_presentation: 
     widescreen: yes
+  beamer_presentation: default
   html_document:
     df_print: paged
     toc: yes
